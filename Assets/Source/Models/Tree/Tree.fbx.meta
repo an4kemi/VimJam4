@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 301c83bfc04aba944af82a611f93c445
+guid: 59d74fd75782e7142a84fc15eab1daba
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -7,18 +7,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Body
-    second: {fileID: 2100000, guid: 33c9b5199e4d85949a72d6193b3c8e94, type: 2}
+      name: Leaves
+    second: {fileID: 2100000, guid: e9ecce63baf6dce4c9a3b5a1173fc183, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Cabin
-    second: {fileID: 2100000, guid: 3f057e469db6d02419206639a10e4477, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Wheel
-    second: {fileID: 2100000, guid: 320d0385cf3fbf344aa584b9eaeab630, type: 2}
+      name: Wood
+    second: {fileID: 2100000, guid: 454722e5bbeb8724a8884dd0159c4ea5, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

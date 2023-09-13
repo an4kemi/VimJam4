@@ -8,10 +8,11 @@ public class CameraProjectionMatrixAnimation : MonoBehaviour {
     bool isOrthographic;
     Tween tween;
 
+    [ContextMenu("Animate")]
     public void AnimateCameraProjection() {
         isOrthographic = !isOrthographic;
         tween.Stop();
-        tween = Tween.Custom(this, interpolationFactor, isOrthographic ? 1 : 0, 0.6f, ease: Ease.InOutSine, onValueChange: (target, t) => {
+        tween = Tween.Custom(this, isOrthographic ? 0 : 1, isOrthographic ? 1 : 0, 1f, ease: Ease.InOutSine, onValueChange: (target, t) => {
                 target.InterpolateProjectionMatrix(t);
             })
             .OnComplete(this, target => {
